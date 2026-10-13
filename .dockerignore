@@ -1,0 +1,10 @@
+node_modules
+.git
+.codex
+.agents
+.aws
+.env*
+artifacts
+docs
+packages/*/dist
+*.log

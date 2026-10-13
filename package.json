@@ -1,0 +1,29 @@
+{
+  "name": "boot-loop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "npm run build --workspace @boot-loop/client",
+    "start": "npm run start --workspace @boot-loop/server",
+    "typecheck": "tsc -p packages/shared/tsconfig.json && tsc -p packages/client/tsconfig.json && tsc -p packages/server/tsconfig.json && tsc -p tsconfig.tools.json",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build",
+    "test:connection": "tsx tools/connection-check.ts",
+    "test:mobility": "node --import tsx tools/mobility-check.ts",
+    "test:online": "node --import tsx tools/online-check.ts",
+    "prebuild": "node tools/release-manifest.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}

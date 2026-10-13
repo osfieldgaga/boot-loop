@@ -1,0 +1,11 @@
+import { readFile, mkdir, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { spawnSync } from 'node:child_process';
+const { buildId } = JSON.parse(await readFile('packages/client/dist/release.json', 'utf8'));
+if (!/^[a-f0-9]{16}$/.test(buildId)) throw new Error('Build first to create a valid release identifier.');
+await mkdir('artifacts/releases', { recursive: true });
+const archive = `artifacts/releases/boot-loop-${buildId}.tar.gz`;
+const result = spawnSync('tar', ['--exclude=node_modules', '-czf', archive, 'package.json', 'package-lock.json', 'packages', 'assets', 'tuning', 'tools', 'docs/release', 'render.yaml', 'Dockerfile', '.dockerignore', 'tsconfig.base.json', 'tsconfig.tools.json', 'vitest.config.ts', '.node-version', '.nvmrc', '.gitignore'], { stdio: 'inherit' });
+if (result.status !== 0) throw new Error('Could not create release archive.');
+await writeFile(archive + '.sha256', createHash('sha256').update(await readFile(archive)).digest('hex') + '  ' + archive.split('/').at(-1) + '\n');
+console.log(archive);

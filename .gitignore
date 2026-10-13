@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+artifacts/
+*.log
+
+
+
+.aws/
+.codex/
+.agents/
+docs/*Learn.html
+docs/*Learn_files/

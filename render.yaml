@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: boot-loop
+    runtime: node
+    plan: free
+    region: ohio
+    buildCommand: npm ci --include=dev && npm run check
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_VERSION
+        value: 24.13.0
+      - key: NODE_ENV
+        value: production

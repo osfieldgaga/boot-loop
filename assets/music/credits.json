@@ -1,0 +1,109 @@
+[
+  {
+    "file": "infinite-darkness.mp3",
+    "title": "Infinite Darkness",
+    "artist": "HydroGene",
+    "source": "https://opengameart.org/content/8-bit-infinite-darkness",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 164.623675,
+    "sha256": "3d46e9b05921da0e171fb4e700074bec63a3bc1533a42200626627aa6df15441"
+  },
+  {
+    "file": "foreboding-pixels.mp3",
+    "title": "Foreboding Pixels",
+    "artist": "Sorth",
+    "source": "https://opengameart.org/content/foreboding-pixels",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 36.048958,
+    "sha256": "f54726be447aa69040171eccdcc7b13d46135d4caa635e7e255c990ffecb4770"
+  },
+  {
+    "file": "hallow-quest.mp3",
+    "title": "Hallow Quest \u2014 8-bit",
+    "artist": "Zane Little Music",
+    "source": "https://opengameart.org/content/spooky-action-loop-hallow-quest",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 59.115102,
+    "sha256": "ded19fed0e10a3fda9df0a0df16a26c11c91c8ed4314a441d29b77ace86edc1b"
+  },
+  {
+    "file": "chip-bit-danger.mp3",
+    "title": "Chip Bit Danger",
+    "artist": "Sudocolon",
+    "source": "https://opengameart.org/content/chip-bit-danger",
+    "download": "https://opengameart.org/sites/default/files/Chip%20Bit%20Danger.mp3",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 59.08898,
+    "sha256": "6656f7ee749dfcb060effcd9ce73da6be9d3006cd189463bc7e7429f2ccf600f"
+  },
+  {
+    "file": "8-bit-cave-loop.mp3",
+    "title": "8-Bit Cave Loop",
+    "artist": "Wolfgang_",
+    "source": "https://opengameart.org/content/8-bit-cave-loop",
+    "download": "https://opengameart.org/sites/default/files/8BitCave.wav",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 64.078367,
+    "sha256": "3eb10d068d50254a56226a861f838a6170652b7bdb5fe219760357163d8c585f"
+  },
+  {
+    "file": "8-bit-perilous-dungeon.mp3",
+    "title": "Perilous Dungeon",
+    "artist": "HydroGene",
+    "source": "https://opengameart.org/content/8-bit-perilous-dungeon",
+    "download": "https://opengameart.org/sites/default/files/8-bit_perilous_dungeon_0.mp3",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 112.5355,
+    "sha256": "db5118263e4192bb4e47be9a0e8ac49c26b4d7ea55805923ffa04fb640311ebc"
+  },
+  {
+    "file": "8-bit-jester-battle.mp3",
+    "title": "Jester Battle",
+    "artist": "HydroGene",
+    "source": "https://opengameart.org/content/8-bit-jester-battle",
+    "download": "https://opengameart.org/sites/default/files/11._jester_battle_0.mp3",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 96.052225,
+    "sha256": "1a66b19b62b7ad1a76bd975d34120ac1d55415fe369205163c5eb100b188f84d"
+  },
+  {
+    "file": "8-bit-battle-loop.mp3",
+    "title": "8-Bit Battle Loop",
+    "artist": "Wolfgang_",
+    "source": "https://opengameart.org/content/8-bit-battle-loop",
+    "download": "https://opengameart.org/sites/default/files/8BitBattleLoop_0.ogg",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 26.697143,
+    "sha256": "8ace1c84968fd8a52b86b6dfa51f37800684870ea4addae38f4bd1a0fc653a76"
+  },
+  {
+    "file": "dark-shrine-loop.mp3",
+    "title": "Dark Shrine \u00b7 ambient",
+    "artist": "qubodup / yd",
+    "source": "https://opengameart.org/content/dark-shrine-loop",
+    "download": "https://opengameart.org/sites/default/files/qubodup-yd-DarkShrineLoop-OpenGameArt.mp3",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 56.607313,
+    "sha256": "2c4279f16ac57f3ca80592944af4e93aa2a35ad68f5e2dbc98ddf331d74b23ce"
+  },
+  {
+    "file": "insistent-background-loop.mp3",
+    "title": "Insistent \u00b7 ambient",
+    "artist": "yd",
+    "source": "https://opengameart.org/content/insistent-background-loop",
+    "download": "https://opengameart.org/sites/default/files/Insistent.ogg",
+    "license": "CC0 1.0",
+    "verifiedDate": "2026-10-10",
+    "durationSeconds": 128.731429,
+    "sha256": "52f32f91aa641c21208cc50dcfabafe22a88db4df5a9054608e2e85b0f645b0d"
+  }
+]

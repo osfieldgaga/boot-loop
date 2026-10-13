@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "constants": {
+    "MAX_RUN": 150,
+    "RUN_ACCEL": 1500,
+    "RUN_REDUCE": 100,
+    "AIR_MULT": 0.85,
+    "GRAVITY": 1800,
+    "MAX_FALL": 350,
+    "HALF_GRAV_THRESHOLD": 20,
+    "JUMP_SPEED": -250,
+    "JUMP_H_BOOST": 40,
+    "VAR_JUMP_TIME": 0.15,
+    "COYOTE_TIME": 0.1,
+    "JUMP_BUFFER": 0.1,
+    "JUMP_CUT_SPEED": -35,
+    "CORNER_CORRECTION": 4,
+    "STEP_UP": 2
+  }
+}
