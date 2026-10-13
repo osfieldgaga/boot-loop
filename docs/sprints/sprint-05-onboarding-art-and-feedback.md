@@ -2,7 +2,7 @@
 
 **Target dates:** October 21–24, 2026
 
-**Status:** Implementation complete October 10, 2026; ready for the product manager’s consolidated review. Not closed until human acceptance.
+**Status:** Approved and closed by the product manager on October 13, 2026.
 
 [All sprints](README.md) · [Product plan](../product-plan.md)
 
@@ -138,7 +138,7 @@ Comments / evidence / skip reason: _Write here; skip if this stretch goal is not
 
 The visible controls are delivered. Test left/right movement, jump, airborne shooting and dash with the displayed controls, including simultaneous movement and actions. Confirm buttons do not hide combat, releasing input stops movement, and keyboard play still works. Record the devices/browsers tested before making any mobile-support claim.
 
-- x] Pass
+- [x] Pass
 - [ ] Skip
 
 Comments / evidence / skip reason: _Write here; skip if this stretch goal is not selected._
@@ -169,7 +169,7 @@ A new player can understand and join without explanation; a solo visitor can try
 - [ ] Remaining issues and carried work are recorded below.
 - [x] I accept this sprint's result and approve moving to the next applicable sprint.
 
-Accepted by / date: _Write here._
+Accepted by / date: Product manager — explicit chat approval, October 13, 2026.
 
 ## Comments and changes
 
@@ -233,9 +233,9 @@ Music audition verification: type checks/build passed; all three bundled tracks 
 
 Music now works on the player route after the first click/key press. A separate Music toggle pauses/resumes it; Sound still mutes everything. `/dev` offers ten tracks, including seven new chiptune/action/ambient options. Track, volume, and enabled state persist in this browser and carry to the main game; these preferences also remain in the combined config export. This supersedes the earlier developer-only playback scope.
 
-- [ ] PM: choose a track in `/dev`, open `/`, interact with the game, and confirm music plays.
-- [ ] PM: compare all ten options and note the preferred track/volume.
-- [ ] PM: verify Music and Sound toggles feel clear and the chosen loop sounds acceptable.
+- [x] PM: choose a track in `/dev`, open `/`, interact with the game, and confirm music plays.
+- [x] PM: compare all ten options and note the preferred track/volume.
+- [x] PM: verify Music and Sound toggles feel clear and the chosen loop sounds acceptable.
 
 Comments / skips:
 
@@ -248,15 +248,15 @@ PM selected **8-Bit Battle Loop — Wolfgang_** as the default music for both th
 
 Background music default reduced from 18% to 8%, with a one-time proportional reduction of existing saved volumes. Jump sound gain doubled from 0.06 to 0.12.
 
-- [ ] PM: confirm the quieter music and louder jump feel balanced during play.
+- [x] PM: confirm the quieter music and louder jump feel balanced during play.
 
 ### Friend-playtest ammo change — October 10
 
 Empty boots now reload automatically over 3 seconds. Partial magazines do not refill on landing or stomping; those actions restore dash only. Players can move, jump, dash, and stomp during reload, but cannot shoot. A pixel RELOADING... label and progress bar follow each reloading player, including opponents. Respawn starts with a full magazine.
 
-- [ ] PM: spend all four shots and confirm the 3-second firing lockout feels right.
-- [ ] PM: land or stomp with partial/empty ammo; verify neither gives instant ammo.
-- [ ] PM: check both players can see each other’s reload label/progress.
+- [x] PM: spend all four shots and confirm the 3-second firing lockout feels right.
+- [x] PM: land or stomp with partial/empty ammo; verify neither gives instant ammo.
+- [x] PM: check both players can see each other’s reload label/progress.
 
 Comments / skips:
 
@@ -265,14 +265,14 @@ Comments / skips:
 
 Desktop player route places room controls, invite/copy link, match status and result text in a narrow scrolling left sidebar. The arena fills the remaining space on the right. Invite copying stays available during a match. Narrow phone screens retain a stacked layout.
 
-- [ ] PM: check room controls/results on the left and the larger game on the right.
+- [x] PM: check room controls/results on the left and the larger game on the right.
 
 ### Friend playtest: escape dash
 
 PM reports multiple enjoyable matches with a friend. Dash now travels up to 100 px at 400 px/s over 0.25 seconds, with a 10-second automatic recharge. Landing, stomping, and respawning cannot shorten that wait. Walls still stop dash; dash is vulnerable and cannot shoot or stomp. A charging arrow sits beside ammo both above the player and in the resource display, flashing while ready (static with reduced-motion preferences). Early grounded dash-jump remains supported with capped launch speed. This supersedes landing/stomp dash-refill rules recorded earlier.
 
-- [ ] PM: check dash feels dramatic and useful for dodging bullets.
-- [ ] PM: check the 10-second wait and charging/ready icon are readable.
+- [x] PM: check dash feels dramatic and useful for dodging bullets.
+- [x] PM: check the 10-second wait and charging/ready icon are readable.
 
 Power-ups, random obstacles and additional stages are recorded in the polish backlog.
 
@@ -286,8 +286,8 @@ Local-player dash-ready correction: online notifications now read the confirmed 
 
 The player route now contains the entire room/match flow within the game card, replacing the sidebar. A central room panel provides Create/Join, invite copying, match settings and Start Match. It automatically clears for countdown/gameplay, then returns with final results and Rematch. Guests see host-controlled buttons disabled. A compact in-game toolbar reopens Room/menu or help and controls audio. The developer route keeps its full workspace.
 
-- [ ] PM: create/join and start entirely inside the game.
-- [ ] PM: check final results, rematch and room/menu while playing.
+- [x] PM: create/join and start entirely inside the game.
+- [x] PM: check final results, rematch and room/menu while playing.
 
 Standalone UI verification: two browser players completed Start Match → final draw results → Rematch entirely inside the arena UI. The panel hides during countdown/play, returns for results, and guests cannot start/rematch. Type checks and production build passed.
 
@@ -295,8 +295,8 @@ Standalone UI verification: two browser players completed Start Match → final 
 
 Added original pixel character poses: compressed takeoff (65 ms), stretched launch (through 180 ms), tucked apex and extended descent. Accepted shots kick the boots outward/upward with a two-step 110 ms recovery and bright boot accents, complementing the existing muzzle flash. Local poses follow predicted actions; opponents follow their snapshot state. All four colors and wrap copies share the same animation system. Collision boxes, jump physics, ammo, recoil and match rules are unchanged. Reduced-motion preference retains the neutral sprite. Animation state resets on practice reset, room changes and new matches; repeated or corrected shot counts cannot replay the same kick.
 
-- [ ] PM: review jump and shooting animation feel in practice and with a friend.
-- [ ] PM: confirm opponents/bullets remain readable during animation and wrapping.
+- [x] PM: review jump and shooting animation feel in practice and with a friend.
+- [x] PM: confirm opponents/bullets remain readable during animation and wrapping.
 
 Verification: 111 tests passed, including pose-only movement invariance, duplicate/prediction-corrected shot suppression, opponent isolation and reduced motion. Strict type checks and production build passed.
 
@@ -304,9 +304,9 @@ Verification: 111 tests passed, including pose-only movement invariance, duplica
 
 Every 18 seconds after a pickup is collected (first spawn 18 seconds into play), pink boots appear above the exposed center platform. A two-second notice warns of arrival. Touching the pickup switches ALL players to three-pellet downward volleys for exactly 8 seconds. Pink boots and the shared countdown show the active modifier. One accepted volley costs one ammo and counts as one shot for efficiency; existing recoil, three-second empty reload, ten-second dash, protection and cover rules stay in place. Pellets sweep diagonally, wrap and stop at cover. The pickup waits until someone collects it; it is not privately owned. Death does not reset the global effect, and rematch/cancellation/results clear it. Practice runs the same pickup rules.
 
-- [ ] PM: collect the center pickup and confirm both players get scatter shots and the timer is clear.
-- [ ] PM: check the spread, eight-second duration and 18-second appearance cadence feel fun rather than overwhelming.
-- [ ] PM: verify one ammo per volley, normal reload/dash, and normal boots returning.
+- [x] PM: collect the center pickup and confirm both players get scatter shots and the timer is clear.
+- [x] PM: check the spread, eight-second duration and 18-second appearance cadence feel fun rather than overwhelming.
+- [x] PM: verify one ammo per volley, normal reload/dash, and normal boots returning.
 
 Verification: 116 unit tests pass; strict type checks and production build pass. Two real SDK clients verified host collection, the guest's three-pellet shot costing one ammo/one statistic, and shared expiry. Turbo boots remain a possible later addition.
 
@@ -316,7 +316,7 @@ Existing real-client multiplayer checks also passed after scatter integration: c
 
 Supersedes the fixed center/18-second spawn rule. First appearance and subsequent waits after collection now vary from 30 to 45 seconds. Each pickup chooses one of eight clear locations above exposed platforms; consecutive pickups cannot reuse the previous location. Online selection and timing are server-owned, shared through snapshots. The two-second arrival warning and eight-second shared effect remain. Short 30-second review matches can finish before a pickup appears; use 60/120 seconds to test this mechanic.
 
-- [ ] PM: review the rarer 30–45 second cadence and varied locations with a friend.
+- [x] PM: review the rarer 30–45 second cadence and varied locations with a friend.
 
 Random pickup verification: all 117 tests, strict type checks and build passed. Two real clients confirmed the same server-selected 30–45 second initial delay and random position. Browser visual review recorded no console errors.
 
@@ -324,7 +324,7 @@ Random pickup verification: all 117 tests, strict type checks and build passed. 
 
 Uncollected scatter boots now disappear after 10 seconds, with the remaining collection window shown in the pink HUD prompt. An expired pickup grants no effect and starts a new random 30–45 second wait. Collection still gives everyone eight seconds of scatter shots. Expiry is server-owned and exclusive: touching on the expiry tick cannot collect it. Practice uses the same rule.
 
-- [ ] PM: leave a pickup untouched; check its countdown, disappearance after 10 seconds and delay before the next one.
+- [x] PM: leave a pickup untouched; check its countdown, disappearance after 10 seconds and delay before the next one.
 
 Pickup expiry verification: 119 tests, type checks and production build passed. Two real clients observed the same expiry deadline, disappearance after ten seconds, no awarded effect, and a fresh 30–45 second delay.
 
@@ -334,10 +334,10 @@ Implemented sequentially: Turbo first, verified before Ricochet. The random boot
 
 The established 30–45 second waits, varied safe pickup locations, ten-second uncollected expiry, and eight-second shared effect remain. HUD identifies each boot type and its remaining time. Solo `/dev` has clearly labeled eight-second previews for all three; online rooms use server-selected pickups only.
 
-- [ ] PM: try Turbo; review speed/control and the return to normal after eight seconds.
-- [ ] PM: try Ricochet; review upward shots, bounce readability and cover counterplay.
-- [ ] PM: confirm both players receive the same pickup effect and countdown in a friend match.
-- [ ] PM: approve these additions or record changes/skips below.
+- [x] PM: try Turbo; review speed/control and the return to normal after eight seconds.
+- [x] PM: try Ricochet; review upward shots, bounce readability and cover counterplay.
+- [x] PM: confirm both players receive the same pickup effect and countdown in a friend match.
+- [x] PM: approve these additions or record changes/skips below.
 
 Comments / requested changes / skip reason: _Write here._
 
@@ -347,7 +347,7 @@ Verification: 126 tests passed, strict type checks and production build passed. 
 
 Activation now announces the selected boots with larger pixel text for the first three seconds: EVERYONE GOES TURBO!, RICOCHET RULES!, or SCATTER MADNESS! Only the lettering jitters; no camera shake is added. The text punches in, shrinks and fades, with small colored sparks and no opaque banner. The middle two seconds keep only the compact status. The final three seconds show a pulsing 3 → 2 → 1 above center, followed by a brief BACK TO NORMAL cue. Animation timing follows the shared effect deadline; reduced-motion users see static text and numbers. Gameplay remains unchanged.
 
-- [ ] PM: review announcement size/shake, countdown pressure and combat readability for all three boots.
+- [x] PM: review announcement size/shake, countdown pressure and combat readability for all three boots.
 
 Verification: type checks and production build passed; browser captures confirmed the announcement and final three-second countdown, with no console errors. Sprint 6 still awaits permission.
 
@@ -355,6 +355,10 @@ Verification: type checks and production build passed; browser captures confirme
 
 Normal bullets now show a small, faint gold four-pixel spark on platform/player collision, lasting 90 ms. Ricochet retains its larger purple bounce effect. Impacts add no sound, shake, damage or physics changes, and lifetime expiry creates no spark. Online impact positions are server-confirmed and shared, with duplicate suppression; practice uses the same collision path. Solo `/dev` includes Try small bullet impact for cosmetic review.
 
-- [ ] PM: review normal impact subtlety against Ricochet and combat readability.
+- [x] PM: review normal impact subtlety against Ricochet and combat readability.
 
 Verification: 128 tests passed, type checks and production build passed, including shared cover/player-hit events and no expiry flash.
+
+## Final PM approval — October 13
+
+The product manager explicitly approved Sprints 5 and 6 in chat: “ok s5 and 6 are all good and aapproved.” This closes the sprint and supersedes earlier pending-acceptance status. Existing checkbox selections and comments are preserved; unchecked individual items are not converted into invented passes or skips. Remaining documented technical limitations and submission-specific checks carry into Sprint 7. Approval does not claim the previously observed SDK cleanup retries were technically resolved.

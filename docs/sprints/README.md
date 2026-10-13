@@ -36,3 +36,7 @@ October 7: Sprint 4 closed with 2–4-player Timed/Stock support. Deferred manua
 October 10: Sprint 5 implementation is complete and ready for one consolidated PM review (T1–T11), including splash and on-screen controls. Human acceptance remains pending; Sprint 6 still owns deferred release edge cases.
 
 October 11: PM approved Sprint 5 and authorized Sprint 6. Current game scope is frozen for release verification. The new visual-impact/power-up review is Sprint 6 T9; human acceptance boxes remain untouched.
+
+## Current status — October 13
+
+Sprints 5 and 6 are approved and closed by explicit PM chat approval. The polished game is hosted at https://boot-loop.onrender.com/ . Sprint 7 is ready: finalize entry materials and required evidence/credits, have the PM submit, verify receipt and the exact submitted URL, and preserve hosting/build availability through judging. Earlier progress notes above are historical. Existing human checkboxes remain as entered.

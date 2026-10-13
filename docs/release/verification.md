@@ -54,3 +54,7 @@ Client build `91171c0545d84dc8` adds static workshop-style wall dressing to Cros
 - Automated hosted four-client Crossfire Timed and four-client Switchback Stock match/result/selection/rematch assertions passed in simultaneous rooms.
 - **Open test cleanup issue:** after those assertions, intentional leaves triggered SDK reconnection retries; the runner remained alive and was interrupted. Do not report a clean runner exit or fully resolved disconnect behavior. Prior tunnel disconnect root cause also remains unconfirmed; investigate SDK/server/proxy closure handling in Sprint 6.
 - Cold start after idle, supported-browser full-match matrix, human separate-network playtesting and PM acceptance remain open. Sprints 6/7 stay unclosed.
+
+## PM release acceptance — October 13
+
+PM explicitly approved and closed Sprints 5 and 6. Existing human checkbox selections (including supported-browser, separate-network, failure-handling and deferred multiplayer checks) and comments are preserved. This updates acceptance status, not automated evidence: SDK test cleanup was still interrupted after successful hosted assertions; no technical resolution is claimed. Sprint 7 submission, receipt and judging availability remain outstanding.

@@ -2,7 +2,7 @@
 
 **Target dates:** October 28, 2026; contingency October 29–30
 
-**Status:** Planned — no implementation or testing claimed.
+**Status:** Ready for submission — Sprints 5 and 6 approved October 13. Entry not yet submitted; receipt unverified.
 
 [All sprints](README.md) · [Product plan](../product-plan.md)
 
@@ -109,3 +109,11 @@ Make only necessary corrections in the buffer. Do not start new gameplay feature
 
 
 October 11 PM steering: deployment is deferred while authorized polish continues. Complete final Sprint 6 public/browser/friend verification and Sprint 7 submission only after the final polished game is online. Do not reuse earlier release evidence as verification of a later changed build.
+
+## Handoff from approved Sprints 5/6 — October 13
+
+- Permanent game: https://boot-loop.onrender.com/ ; dev controls: https://boot-loop.onrender.com/dev .
+- Accepted deployed build: `91171c0545d84dc8`; Render source commit `51d2ce08ec5d59fceb418ad5657a1a70caa1895c`.
+- Submission title, cover and description: docs/release/submission.md. Final mission/evidence and asset-credit review still belong to the PM; no entry has been submitted.
+- Carry documented hosting cold-start/in-memory-room limits and unresolved SDK leave/cleanup observations; sprint approval is not a technical fix. Keep the judged game stable and make corrections only when needed.
+- User's checked browser, failure-handling, separate-network and deferred multiplayer reviews remain recorded in Sprint 6. No per-item test result is inferred solely from blanket sprint approval.
