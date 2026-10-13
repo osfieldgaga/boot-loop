@@ -4,9 +4,9 @@ Current polished scope: Toybox, Crossfire and Switchback arenas, 2–4 players, 
 
 Release gates still open:
 
-- Repeated public-tunnel multiplayer tests intermittently disconnected; both individual arena modes and local four-player tests passed. Cause is unconfirmed. Retest/investigate on the final host before claiming release reliability.
+- Repeated public-tunnel multiplayer tests intermittently disconnected; cause remains unconfirmed. Render match/result/rematch assertions passed, but test-client cleanup after intentional leave triggered SDK reconnection retries and the runner was stopped. Investigate disconnect/cleanup behavior before claiming complete lifecycle verification.
 
-- Permanent Render deployment and public cold-start/HTTPS/WebSocket checks.
+- Permanent Render deployment completed October 13; HTTPS/build agreement and hosted multiplayer assertions passed. Idle cold-start and longer stability review remain pending.
 - Actual Chrome/Edge and Firefox full matches; Safari is not claimed supported.
 - Friend matches on separate devices/networks after the last gameplay changes, with Stock and three/four-player human review.
 - PM review of power-up announcements/countdown and subtle impacts (Sprint 6 T9).

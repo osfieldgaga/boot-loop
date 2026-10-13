@@ -2,7 +2,7 @@
 
 **Target dates:** October 25–27, 2026
 
-**Status:** In progress — authorized October 11, 2026. Release preparation and verification underway; PM acceptance remains pending.
+**Status:** In progress — authorized October 11, 2026. Render deployed October 13; final verification and PM acceptance remain pending.
 
 [All sprints](README.md) · [Product plan](../product-plan.md)
 
@@ -32,10 +32,10 @@ Onboarding and MVP complete; release scope explicitly recorded.
 
 At delivery, the assistant fills in the information below so each test is reproducible. This is not a claim that anything is delivered yet.
 
-- Build / revision: `23e1f6d488d62642` — release candidate, October 11.
-- Demo or public URL: [temporary preview](https://ventures-continually-volumes-drama.trycloudflare.com/); permanent Render deployment pending repository/account connection.
+- Build / revision: `91171c0545d84dc8` — deployed October 13, source commit `51d2ce08ec5d59fceb418ad5657a1a70caa1895c`.
+- Demo or public URL: [permanent Render game](https://boot-loop.onrender.com/) · [developer controls](https://boot-loop.onrender.com/dev).
 - How to run and reach the feature: Node 24.13.0; `npm ci --include=dev`, `npm run check`, `npm start`; open localhost:3000 or `/dev`. T9 previews are on `/dev`.
-- Automated check results, if applicable: 128 tests, type checks and build passed; delayed two-client lifecycle/combat, three-player Timed, four-player Stock, local 40-client capacity and isolated restart smoke passed. [Evidence](../release/verification.md).
+- Automated check results, if applicable: latest 143 tests, type checks and build passed; hosted four-player Timed/Stock match/result/arena/rematch assertions passed. Test cleanup retried connections and required interruption; that follow-up and human acceptance remain open. Earlier local capacity/restart evidence predates polish. [Evidence](../release/verification.md).
 - Known limitations and carried work: [Known issues](../release/known-issues.md); Render Free cold start, in-memory rooms, no resume, pending human/browser/device/public-host verification.
 
 ## How to use this checklist
@@ -180,3 +180,7 @@ Comments / decision / skip reason: _Write here._
 - [ ] T11: Investigate/reproduce intermittent disconnects seen during simultaneous temporary-tunnel tests; verify reliable multi-room play on the final host before release acceptance. See release/verification.md for evidence.
 
 Comments / decision / skip reason: _Write here._
+
+## October 13 hosting handoff
+
+PM authorized hosting and supplied the GitHub repository. Render Free is live; deployment and basic route/build/multiplayer checks completed. T11 stays open: hosted tests passed their game assertions, but test-client cleanup retried connections after intentional leave. Complete final failure-handling, cold-start, human browser/network review and PM acceptance before closing this sprint. No PM checkboxes have been marked automatically.

@@ -43,3 +43,14 @@ Client build `72773c0585a926f8` adds static original Toybox workshop wall art be
 ## Crossfire / Switchback cosmetic pass — October 12
 
 Client build `91171c0545d84dc8` adds static workshop-style wall dressing to Crossfire and Switchback. Toybox dressing and simulation are unchanged. Type checking and production build passed; public-preview browser checks and screenshot review passed on both arenas without page errors. Preview server was kept running to preserve rooms; startup health ID updates at its next restart. Previously recorded public multiplayer disconnects and final-host release gates remain open.
+
+## Permanent Render deployment — October 13
+
+- URL: https://boot-loop.onrender.com/ ; developer controls: https://boot-loop.onrender.com/dev .
+- Free Node web service `srv-db74lu0m7kps73c12u30`, Ohio; manual deploys, no paid upgrades.
+- Deploy `dep-db74luom7kps73c13010` reports Live. Source commit `51d2ce08ec5d59fceb418ad5657a1a70caa1895c`, build `91171c0545d84dc8`. Local 143 tests/type/build passed immediately before deployment; the Render build completed its configured check/build command successfully.
+- HTTP 200 for player/dev routes, health and release manifest. Health/client build IDs agree.
+- Browser rendering verified and two browser clients created/joined the same hosted room. Screenshot: render-live-game.png in the task's visualization folder. This does not claim a complete human browser/friend review.
+- Automated hosted four-client Crossfire Timed and four-client Switchback Stock match/result/selection/rematch assertions passed in simultaneous rooms.
+- **Open test cleanup issue:** after those assertions, intentional leaves triggered SDK reconnection retries; the runner remained alive and was interrupted. Do not report a clean runner exit or fully resolved disconnect behavior. Prior tunnel disconnect root cause also remains unconfirmed; investigate SDK/server/proxy closure handling in Sprint 6.
+- Cold start after idle, supported-browser full-match matrix, human separate-network playtesting and PM acceptance remain open. Sprints 6/7 stay unclosed.

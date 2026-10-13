@@ -4,7 +4,7 @@
 
 **Cover:** [PNG, 1200 × 630](cover.png) · [editable SVG](cover.svg). Original vector/pixel illustration based on the game's own bitmap lettering, palette and characters.
 
-**Project URL:** Pending permanent Render deployment. The temporary trycloudflare preview is not the final submission URL.
+**Project URL:** https://boot-loop.onrender.com/ — Render Free, deployed October 13. Final PM release/submission acceptance remains pending.
 
 **Description:**
 
