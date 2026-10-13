@@ -40,3 +40,7 @@ October 11: PM approved Sprint 5 and authorized Sprint 6. Current game scope is 
 ## Current status — October 13
 
 Sprints 5 and 6 are approved and closed by explicit PM chat approval. The polished game is hosted at https://boot-loop.onrender.com/ . Sprint 7 is ready: finalize entry materials and required evidence/credits, have the PM submit, verify receipt and the exact submitted URL, and preserve hosting/build availability through judging. Earlier progress notes above are historical. Existing human checkboxes remain as entered.
+
+## Project complete — October 13
+
+PM confirmed the entry was submitted and declared the project done. Sprint 7 is closed on that confirmation. Boot Loop remains live at https://boot-loop.onrender.com/ . Receipt details were not independently inspected; historical evidence and individual checkbox selections remain preserved.

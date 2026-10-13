@@ -1,8 +1,12 @@
-# Submission materials — draft for PM review
+# Submission materials — submitted per PM confirmation, October 13
 
 **Title:** Boot Loop
 
 **Cover:** [PNG, 1200 × 630](cover.png) · [editable SVG](cover.svg). Original vector/pixel illustration based on the game's own bitmap lettering, palette and characters.
+
+**3:2 cover candidate:** [NES-inspired gunboot cover](cover-nes-3x2.png), 1536 × 1024. Same artwork adapted using built-in imagegen; [edit prompt](cover-nes-3x2-prompt.md).
+
+**New cover candidate:** [NES-inspired gunboot cover](cover-nes-v2.png), 1731 × 909. Generated with the built-in imagegen tool using Boot Loop characters; [generation prompt](cover-nes-v2-prompt.md). PM selection pending; the existing cover is preserved.
 
 **Project URL:** https://boot-loop.onrender.com/ — Render Free, deployed October 13. Final PM release/submission acceptance remains pending.
 
@@ -24,3 +28,7 @@ The product manager set the concept, approved scope and sprint gates, tuned move
 - [ ] Insert the working Render URL and test it from an idle/fresh session.
 
 The supplied official-rules PDF gives October 30, 2026 at 11:59 PM PT as the entry deadline. The saved mission page says October 31. Use October 30 as the conservative submission cutoff and ask the organizer if clarification is needed. Do not infer an extension from the mission copy. Required entry fields in the supplied PDF are title, cover, description and project URL. These materials are prepared, not submitted.
+
+## Completion record
+
+PM confirmed submission and completion in chat on October 13, 2026. Submission receipt and exact entered fields were not independently inspected. The description and cover variants above are preserved as prepared materials; they are not asserted to be an exact snapshot of the submitted entry. Hosting remains active.

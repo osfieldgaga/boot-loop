@@ -2,7 +2,7 @@
 
 **Target dates:** October 28, 2026; contingency October 29–30
 
-**Status:** Ready for submission — Sprints 5 and 6 approved October 13. Entry not yet submitted; receipt unverified.
+**Status:** Submitted and closed — PM confirmed project submission and completion on October 13, 2026.
 
 [All sprints](README.md) · [Product plan](../product-plan.md)
 
@@ -95,7 +95,7 @@ Entry receipt is verified, the exact submitted URL works, and judging availabili
 - [ ] Remaining issues and carried work are recorded below.
 - [ ] I accept this sprint's result and approve moving to the next applicable sprint.
 
-Accepted by / date: _Write here._
+Accepted by / date: Product manager — explicit submission/completion confirmation, October 13, 2026.
 
 ## Comments and changes
 
@@ -117,3 +117,9 @@ October 11 PM steering: deployment is deferred while authorized polish continues
 - Submission title, cover and description: docs/release/submission.md. Final mission/evidence and asset-credit review still belong to the PM; no entry has been submitted.
 - Carry documented hosting cold-start/in-memory-room limits and unresolved SDK leave/cleanup observations; sprint approval is not a technical fix. Keep the judged game stable and make corrections only when needed.
 - User's checked browser, failure-handling, separate-network and deferred multiplayer reviews remain recorded in Sprint 6. No per-item test result is inferred solely from blanket sprint approval.
+
+## Submission confirmed by PM — October 13
+
+The product manager reported: “project submitted, we're done.” Record this as PM-reported submission and completion; no receipt, exact submission timestamp or submitted-field snapshot was independently inspected. Existing detailed checkboxes are preserved rather than populated with invented verification.
+
+Live game: https://boot-loop.onrender.com/ . Render Free hosting remains running with manual deploys. Do not shut down the service or change the judged build. Cover variants and generation prompts are preserved in docs/release. This closes the active project work; no automation or further feature work is started.
